@@ -37,12 +37,12 @@ class TweetsListener(StreamListener):
         print(status)
         return True
 
-
+# twit dev api credentials
 def sendData(c_socket, keyword):
-    consumer_key = '8xZjcoaxuVJ84lX10LQYVN9q8'
-    consumer_secret = 'S6AhI46bG7CrJZ4a49EzXYnfbqnSmXFfuM2FGDfb6lziCihVfc'
-    access_token = '1462005344071266306-Av1AALQFaKRAaL2xDTEtg8mXCO7mNS'
-    access_secret = 'fL82WS7zBnVxU2YA9OJdAoaVaOF71Zc2FyBItBLm3KchD'
+    consumer_key = ''
+    consumer_secret = ''
+    access_token = ''
+    access_secret = ''
 
     print('start sending data from Twitter to socket')
     # authentication based on the credentials
