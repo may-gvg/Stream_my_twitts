@@ -43,7 +43,6 @@ def text_classification(words):
 if __name__ == "__main__":
     # create Spark session
     spark = SparkSession.builder.appName("TwitterSentimentAnalysis").getOrCreate()
-    print("HUJJ")
     sc = spark.sparkContext
     sc.setLogLevel("DEBUG")
     # read the tweet data from socket
